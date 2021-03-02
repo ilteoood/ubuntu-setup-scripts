@@ -14,7 +14,8 @@ sudo apt-get install -y git \
                         transmission \
                         python3 \
                         meld \
-			qemu-kvm
+			qemu-kvm \
+			net-tools
 
 # Install Google Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && \
