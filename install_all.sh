@@ -26,6 +26,7 @@ rm google-chrome-stable_current_amd64.deb
 
 # Install NodeJS
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 # Install rclone
 curl https://rclone.org/install.sh | sudo bash
